@@ -24663,6 +24663,14 @@ teletec|Teletec Datascreen,
 	cols#80, lines#24,
 	bel=^G, clear=^L, cr=\r, cub1=^H, cud1=\n, cuf1=^_, cuu1=^K,
 	home=^^, ind=\n,
+
+cykusz|Cykusz terminal,
+    colors#8,
+    csr@, ri@, setab=\E[4%p1%dm, setaf=\E[3%p1%dm,setb=\E[4%p1%dm, setf=\E[3%p1%dm,
+    kdch1=\E[3~, khome=\EOH, kend=\EOF, knp=\E[6~, kpp=\E[5~, kRIT5=\E[1;5C, kLFT5=\E[1;5D,
+    kDC5=\E[3;5~, el=\E[K, el1=\E[1K, il1=\E[L,
+    rev=\E[7m, rmso=\E[m, rmul=\E[m, smso=\E[7m, smul=\E[4m,
+    use=vt100,
 # From: Mark Dornfeld <romwa@ucbvax.berkeley.edu>
 # This description is for the LANPAR Technologies VISION 3220
 # terminal from 1984/85.  The function key definitions k0-k5 represent the
